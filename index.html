@@ -1,0 +1,77 @@
+<!doctype HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>リヴァエレ</title>
+  </head>
+  <body style="margin:0px; overflow:hidden;">
+    <!-- A-Frame ライブラリの読み込み -->
+    <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
+    <!-- AR.js ライブラリの読み込み -->
+    <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+
+    <!-- A-Frame の VR空間に AR.js を紐づける（デバッグUIを非表示） -->
+    <a-scene embedded arjs="debugUIEnabled:false;">
+
+      <!-- OBJ形式のCGモデルの読み込み -->
+      <a-assets>
+        <a-asset-item id="eren-obj" src="a/eren.obj"></a-asset-item>   <!-- objファイル -->
+        <a-asset-item id="eren-mtl" src="a/eren.mtl"></a-asset-item>   <!-- mtlファイル -->
+
+        <a-asset-item id="levi-obj" src="b/levi.obj"></a-asset-item>   <!-- objファイル -->
+        <a-asset-item id="levi-mtl" src="b/levi.mtl"></a-asset-item>   <!-- mtlファイル -->
+      </a-assets>
+
+      <!-- マーカーを登録（プリセットされている「エレン」マーカー） -->
+      <a-marker preset='e_eren' type='pattern' url="pattern_e.patt">
+          <a-obj-model id="e_ren" src="#eren-obj" mtl="#eren-mtl" position="0 0 0" scale="0.5 0.5 0.5" rotation="0 0 0"></a-obj-model>
+      </a-marker>
+
+      <!--a-marker preset="e_eren">
+        <a-obj-model
+          src="#eren-obj"
+          mtl="#eren-mtl"
+          scale="0.005 0.005 0.005"
+          position="0 0.5 0">
+          <a-animation
+            attribute="rotation"
+            to="0 360 0"
+            dur="3000"
+            easing="linear"
+            repeat="indefinite">
+          </a-animation>
+        </a-obj-model>
+      </a-marker-->
+
+      <!-- マーカーを登録（プリセットされている「リヴァイ」マーカー） -->
+      <a-marker preset='l_levi' type='pattern' url="pattern_l.patt">
+          <a-obj-model id="e_ren" src="#levi-obj" mtl="#levi-mtl" position="0 0 0" scale="0.5 0.5 0.5" rotation="0 0 0"></a-obj-model>
+      </a-marker>
+      <!--a-marker preset="l_levi">
+        <a-obj-model
+          src="#levi-obj"
+          mtl="#levi-mtl"
+          scale="0.005 0.005 0.005"
+          position="0 0.5 0">
+          <a-animation
+            attribute="rotation"
+            to="0 360 0"
+            dur="3000"
+            easing="linear"
+            repeat="indefinite">
+          </a-animation>
+        </a-obj-model>
+      </a-marker-->
+
+      <!-- AR用のカメラを置く -->
+      <a-entity camera></a-entity>
+    </a-scene>
+  </body>
+</html>
+
+
+
+
+
+
