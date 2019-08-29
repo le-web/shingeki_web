@@ -7,7 +7,7 @@
   </head>
   <body style="margin:0px; overflow:hidden;">
     <!-- A-Frame ライブラリの読み込み -->
-    <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
+    <script src="https://aframe.io/releases/0.7.1/aframe.min.js"></script>
     <!-- AR.js ライブラリの読み込み -->
     <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
 
@@ -22,14 +22,13 @@
         <a-asset-item id="levi-obj" src="b/levi.obj"></a-asset-item>
         <a-asset-item id="levi-mtl" src="b/levi.mtl"></a-asset-item>
 
-        <a-asset-item id="Dog-obj" src="c/Dog.obj"></a-asset-item>
-        <a-asset-item id="Dog-mtl" src="c/Dog.mtl"></a-asset-item>
+        <a-asset-item id="dog-obj" src="c/dog.obj"></a-asset-item>
+        <a-asset-item id="dog-mtl" src="c/dog.mtl"></a-asset-item>
       </a-assets>
 
       <!-- マーカーを登録「エレン」マーカー -->
       <a-marker preset='e_eren' type='pattern' url="pattern_e.patt">
           <a-obj-model id="ereneren" src="#eren-obj" mtl="#eren-mtl" position="0 0 0" scale="0.5 0.5 0.5" rotation="0 0 0"></a-obj-model>
-        <a-text value="Hello！!！" position="0 1.3 0" align="center"></a-text>
       </a-marker>
 
       <!-- マーカーを登録「リヴァイ」マーカー -->
@@ -38,9 +37,11 @@
       </a-marker>
 
       <!-- マーカーを登録「テスト」マーカー -->
-      <a-marker preset='D_og' type='pattern' url="pattern-p_test.patt">
-          <!--a-obj-model id="DogDog" src="#Dog-obj" mtl="#Dog-mtl" position="0 0 0" scale="0.5 0.5 0.5" rotation="0 0 0"></a-obj-model-->
+      <a-marker preset='d_og' type='pattern' url="pattern-p_test.patt">
+          <!--a-obj-model id="dogdog" src="#dog-obj" mtl="#dog-mtl" position="0 0 0" scale="0.5 0.5 0.5" rotation="0 0 0"></a-obj-model-->
         <a-text value="Hello！!！" position="0 1.3 0" align="center"></a-text>
+        
+        
 </a-marker>
 
       <!-- AR用のカメラを置く -->
