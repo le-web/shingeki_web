@@ -2,7 +2,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>A-Frame41</title>
+  <title>A-Frame42</title>
   <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
   <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.2/aframe/build/aframe-ar.js"></script>
 </head>
@@ -33,11 +33,14 @@
         
         <a-obj-model src="#eren-obj" mtl="#eren-mtl" scale="1 1 1" position="0 0 0"></a-obj-model>
         
-        <a-text value="eren!" position="0 1.3 0" align="center"></a-text>
+        <a-text value="eren!" position="1 0 0" align="center"></a-text>
       </a-marker>
 
       <a-marker preset="l_levi" type="pattern" url="pattern_l.patt">
-        <a-text value="levi!" position="0 1.3 0" align="center"></a-text>
+        
+        <a-obj-model src="#levi-obj" mtl="#levi-mtl" scale="1 1 1" position="0 0 0"></a-obj-model>
+
+        <a-text value="levi!" position="1 0 0" align="center"></a-text>
         <!--a-sphere position="0 1 -4" color="#222" scale="1 1 1"></a-sphere-->
         <!--shadow="receive: true"-->
       </a-marker>
