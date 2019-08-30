@@ -4,7 +4,7 @@ index.html
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>A-Frame で超簡単 AR</title>
+    <title>A-Frame</title>
   </head>
   <body style="margin:0px; overflow:hidden;">
     <!-- A-Frame ライブラリの読み込み -->
@@ -15,7 +15,7 @@ index.html
     <!-- A-Frame の VR空間に AR.js を紐づける（デバッグUIは非表示） -->
     <a-scene embedded arjs="debugUIEnabled:false;">
 
-      <!--a-assets>
+      <a-assets>
         <a-asset-item id="eren-obj" src="a/eren.obj"></a-asset-item>
         <a-asset-item id="eren-mtl" src="a/eren.mtl"></a-asset-item>
 
@@ -24,7 +24,7 @@ index.html
 
         <a-asset-item id="dog-obj" src="c/dog.obj"></a-asset-item>
         <a-asset-item id="dog-mtl" src="c/dog.mtl"></a-asset-item>
-      </a-assets-->
+      </a-assets>
       <!-- マーカーを登録（プリセットされている「hiro」マーカー） -->
       <!--a-marker preset='e_eren' type='pattern' url="pattern_e.patt"-->
       <a-marker preset="hiro">
