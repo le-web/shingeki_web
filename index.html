@@ -2,7 +2,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>A-Frame25</title>
+  <title>A-Frame26</title>
 
   <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
   <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.2/aframe/build/aframe-ar.js"></script>
@@ -14,11 +14,11 @@
       <!--a-entity light="type: directional; color: #fff; castShadow:true;" position="-10 10 10"></a-entity-->
 
       <a-assets>
-        <a-asset-item id="eren-obj" src="a/eren.obj"/>
+        <!--a-asset-item id="eren-obj" src="a/eren.obj"/>
         <a-asset-item id="eren-mtl" src="a/eren.mtl"/>
 
         <a-asset-item id="levi-obj" src="b/levi.obj"/>
-        <a-asset-item id="levi-mtl" src="b/levi.mtl"/>
+        <a-asset-item id="levi-mtl" src="b/levi.mtl"/-->
 
         <a-asset-item id="dog-obj" src="c/Dog.obj"/>
         <a-asset-item id="dog-mtl" src="c/Dog.mtl"/>
@@ -29,7 +29,7 @@
       </a-marker>
 
       <a-marker preset="e_eren" type="pattern" url="pattern_e.patt">
-        <a-obj-model id="dogdog" src="#dog-obj" mtl="#dog-mtl" position="0 0 0" scale="1 1 1" rotation="0 0 0" shadow="receive: true"></a-obj-model>
+        <a-obj-model id="dogdog" src="#dog-obj" mtl="#dog-mtl" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-obj-model>
         <a-text value="eren!" position="0 1.3 0" align="center"></a-text>
       </a-marker>
 
