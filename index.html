@@ -2,10 +2,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>A-Frame34</title>
+  <title>A-Frame35</title>
 
-  <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
-  <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.2/aframe/build/aframe-ar.js"></script>
+  <!--script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
+  <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.2/aframe/build/aframe-ar.js"></script-->
+  
+  <script src="https://aframe.io/releases/0.9.0/aframe.min.js"></script>
+  <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
 </head>
 <body style='margin: 0; overflow: hidden;'>
 
@@ -29,14 +32,14 @@
       </a-marker>
 
       <a-marker preset="e_eren" type="pattern" url="pattern_e.patt">
-        <a-obj-model id="dogdog" src="#dog-obj" mtl="#dog-mtl" position="0 0 0" scale="1 1 1"></a-obj-model>
+        <a-obj-model id="dogdog" src="#dog-obj" mtl="#dog-mtl" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-obj-model>
         <a-text value="eren!" position="0 1.3 0" align="center"></a-text>
       </a-marker>
 
       <a-marker preset="l_levi" type="pattern" url="pattern_l.patt">
         <a-text value="levi!" position="0 1.3 0" align="center"></a-text>
         <!--a-sphere position="0 1 -4" color="#222" scale="1 1 1"></a-sphere-->
-        <!--shadow="receive: true" rotation="0 0 0"-->
+        <!--shadow="receive: true"-->
       </a-marker>
       
       <!--a-entity obj-model="obj: #dog-obj; mtl : #dog-mtl" scale="0.3 0.3 0.3"></a-entity-->
