@@ -1,5 +1,5 @@
 # Blender MTL File: 'rivaere.blend'
-# Material Count: 39
+# Material Count: 37
 
 newmtl 01_瞳_ハイライト
 Ns 7.843137
@@ -111,17 +111,6 @@ d 1.000000
 illum 2
 map_Kd levi2_obj2\me.png
 
-newmtl 20_歯
-Ns 7.843137
-Ka 0.500000 0.500000 0.500000
-Kd 1.000000 1.000000 1.000000
-Ks 0.000000 0.000000 0.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd eren2 _obj2\\kao.png
-
 newmtl 20_肌
 Ns 7.843137
 Ka 0.500000 0.500000 0.500000
@@ -165,17 +154,6 @@ Ni 1.000000
 d 1.000000
 illum 2
 map_Kd levi2_obj2\kao.png
-
-newmtl 20_舌
-Ns 7.843137
-Ka 0.500000 0.500000 0.500000
-Kd 1.000000 1.000000 1.000000
-Ks 0.000000 0.000000 0.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd eren2 _obj2\kao.png
 
 newmtl 21_睫毛眉毛
 Ns 7.843137
