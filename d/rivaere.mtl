@@ -10,7 +10,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd エレン2 _obj2\me.png
+map_Kd eren2 _obj2\me.png
 
 newmtl 01_瞳_ハイライト.001
 Ns 7.843137
@@ -21,7 +21,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd リヴァイ2_obj2\me.png
+map_Kd levi2_obj2\me.png
 
 newmtl 06_瞳_瞳孔
 Ns 7.843137
@@ -32,7 +32,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd エレン2 _obj2\me.png
+map_Kd eren2 _obj2\me.png
 
 newmtl 06_瞳_瞳孔.001
 Ns 7.843137
@@ -43,7 +43,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd リヴァイ2_obj2\me.png
+map_Kd levi2_obj2\me.png
 
 newmtl 07_瞳_ベース
 Ns 7.843137
@@ -54,7 +54,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd エレン2 _obj2\me.png
+map_Kd eren2 _obj2\me.png
 
 newmtl 07_瞳_ベース.001
 Ns 7.843137
@@ -65,7 +65,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd リヴァイ2_obj2\me.png
+map_Kd levi2_obj2\me.png
 
 newmtl 08_瞳_ベース_
 Ns 7.843137
@@ -76,7 +76,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.010000
 illum 2
-map_Kd エレン2 _obj2\me.png
+map_Kd eren2 _obj2\me.png
 
 newmtl 08_瞳_ベース_.001
 Ns 7.843137
@@ -87,7 +87,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.010000
 illum 2
-map_Kd リヴァイ2_obj2\me.png
+map_Kd levi2_obj2\me.png
 
 newmtl 09_白目
 Ns 7.843137
@@ -98,7 +98,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd エレン2 _obj2\me.png
+map_Kd eren2 _obj2\me.png
 
 newmtl 09_白目.001
 Ns 7.843137
@@ -109,7 +109,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd リヴァイ2_obj2\me.png
+map_Kd levi2_obj2\me.png
 
 newmtl 20_歯
 Ns 7.843137
@@ -120,7 +120,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd エレン2 _obj2\\kao.png
+map_Kd eren2 _obj2\\kao.png
 
 newmtl 20_歯.001
 Ns 7.843137
@@ -131,7 +131,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd リヴァイ2_obj2\\kao.png
+map_Kd levi2_obj2\\kao.png
 
 newmtl 20_肌
 Ns 7.843137
@@ -142,7 +142,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd エレン2 _obj2\kao.png
+map_Kd eren2 _obj2\kao.png
 
 newmtl 20_肌.001
 Ns 7.843137
@@ -153,7 +153,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd リヴァイ2_obj2\kao.png
+map_Kd levi2_obj2\kao.png
 
 newmtl 20_肌顔
 Ns 7.843137
@@ -164,7 +164,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd エレン2 _obj2\kao.png
+map_Kd eren2 _obj2\kao.png
 
 newmtl 20_肌顔.001
 Ns 7.843137
@@ -175,7 +175,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd リヴァイ2_obj2\kao.png
+map_Kd levi2_obj2\kao.png
 
 newmtl 20_舌
 Ns 7.843137
@@ -186,7 +186,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd エレン2 _obj2\kao.png
+map_Kd eren2 _obj2\kao.png
 
 newmtl 20_舌.001
 Ns 7.843137
@@ -197,7 +197,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd リヴァイ2_obj2\kao.png
+map_Kd levi2_obj2\kao.png
 
 newmtl 21_睫毛眉毛
 Ns 7.843137
@@ -208,7 +208,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd エレン2 _obj2\kao.png
+map_Kd eren2 _obj2\kao.png
 
 newmtl 21_睫毛眉毛.001
 Ns 7.843137
@@ -219,7 +219,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd リヴァイ2_obj2\kao.png
+map_Kd levi2_obj2\kao.png
 
 newmtl 21_髪
 Ns 7.843137
@@ -230,7 +230,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd エレン2 _obj2\kami.png
+map_Kd eren2 _obj2\kami.png
 
 newmtl 21_髪.001
 Ns 7.843137
@@ -241,7 +241,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd リヴァイ2_obj2\kami.png
+map_Kd levi2_obj2\kami.png
 
 newmtl 22_ジャケット
 Ns 96.078431
@@ -252,7 +252,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd エレン2 _obj2\huku1.png
+map_Kd eren2 _obj2\huku1.png
 
 newmtl 22_ジャケット.001
 Ns 96.078431
@@ -263,7 +263,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd リヴァイ2_obj2\huku1.png
+map_Kd levi2_obj2\huku1.png
 
 newmtl 22_ジャケット2
 Ns 7.843137
@@ -274,7 +274,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd エレン2 _obj2\huku1.png
+map_Kd eren2 _obj2\huku1.png
 
 newmtl 22_ジャケット2.001
 Ns 7.843137
@@ -285,7 +285,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd リヴァイ2_obj2\huku1.png
+map_Kd levi2_obj2\huku1.png
 
 newmtl 22_服
 Ns 7.843137
@@ -296,7 +296,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd エレン2 _obj2\huku1.png
+map_Kd eren2 _obj2\huku1.png
 
 newmtl 22_服.001
 Ns 7.843137
@@ -307,7 +307,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd リヴァイ2_obj2\huku1.png
+map_Kd levi2_obj2\huku1.png
 
 newmtl 22_腰布
 Ns 7.843137
@@ -318,7 +318,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd エレン2 _obj2\huku2.png
+map_Kd eren2 _obj2\huku2.png
 
 newmtl 22_腰布.001
 Ns 7.843137
@@ -329,7 +329,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd リヴァイ2_obj2\huku2.png
+map_Kd levi2_obj2\huku2.png
 
 newmtl 23_ブーツ
 Ns 7.843137
@@ -340,7 +340,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd エレン2 _obj2\huku2.png
+map_Kd eren2 _obj2\huku2.png
 
 newmtl 23_ブーツ.001
 Ns 7.843137
@@ -351,7 +351,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd リヴァイ2_obj2\huku2.png
+map_Kd levi2_obj2\huku2.png
 
 newmtl 23_ベルト
 Ns 7.843137
@@ -362,7 +362,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd エレン2 _obj2\huku2.png
+map_Kd eren2 _obj2\huku2.png
 
 newmtl 23_ベルト.001
 Ns 7.843137
@@ -373,7 +373,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd リヴァイ2_obj2\huku2.png
+map_Kd levi2_obj2\huku2.png
 
 newmtl 23_ベルト2
 Ns 7.843137
@@ -384,7 +384,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd エレン2 _obj2\huku2.png
+map_Kd eren2 _obj2\huku2.png
 
 newmtl 23_ベルト2.001
 Ns 7.843137
@@ -395,7 +395,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd リヴァイ2_obj2\huku2.png
+map_Kd levi2_obj2\huku2.png
 
 newmtl 23_金属
 Ns 96.078431
@@ -406,7 +406,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd エレン2 _obj2\huku2.png
+map_Kd eren2 _obj2\huku2.png
 
 newmtl 23_金属.001
 Ns 96.078431
@@ -417,7 +417,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd リヴァイ2_obj2\huku2.png
+map_Kd levi2_obj2\huku2.png
 
 newmtl 23_金属.001_NONE
 Ns 96.078431
@@ -428,7 +428,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd リヴァイ2_obj2\\huku2.png
+map_Kd levi2_obj2\\huku2.png
 
 newmtl 23_金属_NONE
 Ns 96.078431
@@ -439,7 +439,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd エレン2 _obj2\\huku2.png
+map_Kd eren2 _obj2\\huku2.png
 
 newmtl Material.001
 Ns 96.078431
