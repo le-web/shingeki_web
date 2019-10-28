@@ -20,6 +20,8 @@
         <a-asset-item id="levi-mtl" src="b/levi.mtl"/>
         <a-asset-item id="rivaere-obj" src="c/rivaere.obj"/>
         <a-asset-item id="rivaere-mtl" src="c/rivaere.mtl"/>
+        <a-asset-item id="star-obj" src="star/star.obj"/>
+        <a-asset-item id="star-mtl" src="star/star.mtl"/>
       </a-assets>
 
       <a-marker preset="hiro">
@@ -36,6 +38,10 @@
 
       <a-marker preset="l_levieren" type="pattern" url="pattern-le.patt">
         <a-obj-model src="#rivaere-obj" mtl="#rivaere-mtl" scale="0.7 0.7 0.7" position="0 0 0"></a-obj-model>
+      </a-marker>
+
+      <a-marker preset="l_star" type="pattern" url="pattern-le.patt">
+        <a-obj-model src="#star-obj" mtl="#star-mtl" scale="0.5 0.5 0.5" position="0 0 0"></a-obj-model>
       </a-marker>
 
   <a-entity camera></a-entity>
