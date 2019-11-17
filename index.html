@@ -1,51 +1,54 @@
 <!DOCTYPE html>
+<html>
 <head>
   <meta charset="utf-8">
-  <!--meta name="viewport" content="width=device-width,initial-scale=1"-->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>3D_ver0.2</title>
-  <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
-  <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.7.8/aframe/build/aframe-ar.js"></script>
 </head>
 <body style='margin: 0; overflow: hidden;'>
+  <!-- A-Frame ライブラリの読み込み -->
+  <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
+  <!-- AR.js ライブラリの読み込み -->
+  <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
 
-<a-scene embedded arjs="debugUIEnabled:false;">
+	<a-scene embedded arjs="debugUIEnabled:false;">
 
-      <a-light type="directional" color="#DDD" intensity="0.5" position="0.5 0.7 0.7"></a-light>
-      <a-light type="ambient" color="#DDD"></a-light>
+	      <a-light type="directional" color="#DDD" intensity="0.5" position="0.5 0.7 0.7"></a-light>
+	      <a-light type="ambient" color="#DDD"></a-light>
 
-      <a-assets>
-        <a-asset-item id="eren-obj" src="a/eren.obj"/>
-        <a-asset-item id="eren-mtl" src="a/eren.mtl"/>
-        <a-asset-item id="levi-obj" src="b/levi.obj"/>
-        <a-asset-item id="levi-mtl" src="b/levi.mtl"/>
-        <a-asset-item id="rivaere-obj" src="c/rivaere.obj"/>
-        <a-asset-item id="rivaere-mtl" src="c/rivaere.mtl"/>
-        <a-asset-item id="star-obj" src="star/star.obj"/>
-        <a-asset-item id="star-mtl" src="star/star.mtl"/>
-      </a-assets>
+	      <a-assets>
+	        <a-asset-item id="eren-obj" src="a/eren.obj"/>
+	        <a-asset-item id="eren-mtl" src="a/eren.mtl"/>
+	        <a-asset-item id="levi-obj" src="b/levi.obj"/>
+	        <a-asset-item id="levi-mtl" src="b/levi.mtl"/>
+	        <a-asset-item id="rivaere-obj" src="c/rivaere.obj"/>
+	        <a-asset-item id="rivaere-mtl" src="c/rivaere.mtl"/>
+	        <a-asset-item id="star-obj" src="star/star.obj"/>
+	        <a-asset-item id="star-mtl" src="star/star.mtl"/>
+	      </a-assets>
 
-      <a-marker preset="hiro">
-        <a-box position="0 0.5 0" wireframe="true"></a-box>
-      </a-marker>
+	      <a-marker preset="hiro">
+	        <a-box position="0 0.5 0" wireframe="true"></a-box>
+	      </a-marker>
 
-      <a-marker preset="e_eren" type="pattern" url="pattern_e.patt">        
-        <a-obj-model src="#eren-obj" mtl="#eren-mtl" scale="1 1 1" position="0 0 0"></a-obj-model>
-      </a-marker>
+	      <a-marker preset="e_eren" type="pattern" url="pattern_e.patt">        
+	        <a-obj-model src="#eren-obj" mtl="#eren-mtl" scale="1 1 1" position="0 0 0"></a-obj-model>
+	      </a-marker>
 
-      <a-marker preset="l_levi" type="pattern" url="pattern_l.patt">
-        <a-obj-model src="#levi-obj" mtl="#levi-mtl" scale="1 1 1" position="0 0 0"></a-obj-model>
-      </a-marker>
+	      <a-marker preset="l_levi" type="pattern" url="pattern_l.patt">
+	        <a-obj-model src="#levi-obj" mtl="#levi-mtl" scale="1 1 1" position="0 0 0"></a-obj-model>
+	      </a-marker>
 
-      <a-marker preset="l_levieren" type="pattern" url="pattern-le.patt">
-        <a-obj-model src="#rivaere-obj" mtl="#rivaere-mtl" scale="0.7 0.7 0.7" position="0 0 0"></a-obj-model>
-      </a-marker>
+	      <a-marker preset="l_levieren" type="pattern" url="pattern-le.patt">
+	        <a-obj-model src="#rivaere-obj" mtl="#rivaere-mtl" scale="0.7 0.7 0.7" position="0 0 0"></a-obj-model>
+	      </a-marker>
 
-      <a-marker preset="l_star" type="pattern" url="pattern-star.patt">
-        <a-obj-model src="#star-obj" mtl="#star-mtl" scale="0.3 0.3 0.3" position="0 1.5 0"></a-obj-model>
-      </a-marker>
+	      <a-marker preset="l_star" type="pattern" url="pattern-star.patt">
+	        <a-obj-model src="#star-obj" mtl="#star-mtl" scale="0.3 0.3 0.3" position="0 1.5 0"></a-obj-model>
+	      </a-marker>
 
-  <a-entity camera></a-entity>
-</a-scene>
+	  <a-entity camera></a-entity>
+	</a-scene>
 </body>
 </html>
 
